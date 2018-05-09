@@ -1,3 +1,6 @@
+# NOTE: This does not recurse by default.  If recursion is needed, then we need to write a loop around $location in like ~56
+# Install this as a Context Menu script.  Set the Display Rule to 'where the item is the `Media Library` item or one of it's descendants'
+
 function TinifyImage($mediaItem) {
     $apiKey = "TODO REPLACE WITH API KEY" # https://tinypng.com/developers
     $apiAuthorization = "api:$apiKey"
