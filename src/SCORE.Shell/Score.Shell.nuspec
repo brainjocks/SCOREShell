@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SCORE.Shell</id>
+    <version>$version$</version>
+    <title>SCORE.Shell</title>
+    <authors>Brainjocks</authors>
+    <owners>Brainjocks</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SCORE Extensions via Sitecore Powershell</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags></tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="init.ps1" target="tools\init.ps1" />
+    <file src="Package-Installer\UpdatePackageInstaller.asmx" target="tools\installer" />
+    <file src="Package-Installer\Score.Automation.WebServices.dll" target="tools\installer" />
+    <file src="..\..\src\SCORE.Shell.Master\Package_$configuration$\*.update" target="tools\packages" />
+  </files>
+</package>

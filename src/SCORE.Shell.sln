@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SCORE.Shell.Master", "SCORE.Shell.Master\SCORE.Shell.Master.scproj", "{BC039E82-C84B-40E2-9614-BA8622C49465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCORE.Shell", "SCORE.Shell\SCORE.Shell.csproj", "{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCORE.Shell.Web", "SCORE.Shell.Web\SCORE.Shell.Web.csproj", "{1E13FED7-DB6F-4D75-88C3-96CB4198179C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Sandbox|Any CPU = Sandbox|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Sandbox|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Sandbox|Any CPU.Build.0 = Debug|Any CPU
+		{BC039E82-C84B-40E2-9614-BA8622C49465}.Sandbox|Any CPU.Deploy.0 = Debug|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Sandbox|Any CPU.ActiveCfg = Release|Any CPU
+		{18E2D0A4-A4C8-40E9-9ADE-F4C5CECDF506}.Sandbox|Any CPU.Build.0 = Release|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Sandbox|Any CPU.ActiveCfg = Release|Any CPU
+		{1E13FED7-DB6F-4D75-88C3-96CB4198179C}.Sandbox|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {49738E1E-8A29-47D2-A145-2E780C722126}
+	EndGlobalSection
+EndGlobal
